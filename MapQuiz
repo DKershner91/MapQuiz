@@ -1,0 +1,116 @@
+const questions = [
+    {
+        question: "What subject's teachers must follow the Eureka Math Squared Pacing & Scope & Skill Guide for lesson planning?",
+        choices: ["Math", "ELA", "Science", "Social Studies"],
+        answer: "Math"
+    },
+    {
+        question: "What platform should teachers use for tracking and analyzing student performance data?",
+        choices: ["The Data Hub and School-Based Dashboards", "Google Classroom", "Schoology", "PowerSchool"],
+        answer: "The Data Hub and School-Based Dashboards"
+    },
+    {
+        question: "What curriculum is used for grades K-2 in the subject of ELA?",
+        choices: ["CKLA Skills and CKLA Knowledge", "MyPerspectives", "McGraw Hill", "Eureka Math"],
+        answer: "CKLA Skills and CKLA Knowledge"
+    },
+    {
+        question: "How frequently do teachers in Tier 2 receive coaching as part of the coaching cycle?",
+        choices: ["Bi-weekly", "Weekly", "Monthly", "Annually"],
+        answer: "Bi-weekly"
+    },
+    {
+        question: "How often are data analysis cycles expected to be implemented according to the SY25 roadmap?",
+        choices: ["Every 4-6 weeks, aligned with End of Unit assessments", "Every 2 weeks", "Every 8 weeks", "Annually"],
+        answer: "Every 4-6 weeks, aligned with End of Unit assessments"
+    },
+    {
+        question: "According to the SY25 roadmap, how often are data analysis cycles based on End of Unit assessments expected to take place?",
+        choices: ["Every 4-6 weeks", "Every 2 weeks", "Every 8 weeks", "Annually"],
+        answer: "Every 4-6 weeks"
+    },
+    {
+        question: "What system must school leaders use to reflect on data trends by the 1st of each month?",
+        choices: ["School-Based Data Analysis Assessment Tracker", "PowerSchool", "Google Forms", "Data Studio"],
+        answer: "School-Based Data Analysis Assessment Tracker"
+    },
+    {
+        question: "What percentage of classrooms must exhibit student ownership aligned to core actions by May 31, 2025?",
+        choices: ["75%", "50%", "85%", "100%"],
+        answer: "75%"
+    },
+    {
+        question: "In what year will Science and Social Studies require lesson internalization protocols, as specified in the SY25 roadmap?",
+        choices: ["SY26 (School Year 2026)", "SY24", "SY25", "SY27"],
+        answer: "SY26 (School Year 2026)"
+    },
+    {
+        question: "By 2025, what percentage of tested students must demonstrate growth on NWEA Reading and Math assessments?",
+        choices: ["95%", "85%", "90%", "80%"],
+        answer: "95%"
+    },
+    {
+        question: "What is the success metric for classroom teachers regarding High-Quality Questions and Tasks in ELA instruction by May 31, 2025?",
+        choices: ["75% of classroom teachers should receive a rating of mostly or yes", "85% of teachers receive feedback", "All students score above 50%", "100% of teachers must follow protocol"],
+        answer: "75% of classroom teachers should receive a rating of mostly or yes"
+    },
+    {
+        question: "Where would you locate the schedule for curriculum-based testing across various subjects in Confluence Academies?",
+        choices: ["The Curriculum Testing Calendar", "Google Calendar", "The Data Hub", "District Calendar"],
+        answer: "The Curriculum Testing Calendar"
+    },
+    {
+        question: "By what date must all school teams develop a 'Theory of Action' to guide their priorities and outcomes for the year?",
+        choices: ["August 15, 2024", "July 1, 2024", "January 1, 2025", "December 31, 2024"],
+        answer: "August 15, 2024"
+    },
+    {
+        question: "For teachers planning ELA lessons, where can they find the timeline and structure for lesson implementation?",
+        choices: ["CKLA Pacing Guide or MyPerspectives Pacing Guide", "Eureka Math Pacing Guide", "McGraw Hill Guide", "Data Hub"],
+        answer: "CKLA Pacing Guide or MyPerspectives Pacing Guide"
+    },
+    {
+        question: "How often must school-based leaders conduct observations in Confluence Academies according to the SY25 roadmap?",
+        choices: ["2-6 observations per building per week, depending on the school", "Once a month", "Daily", "Annually"],
+        answer: "2-6 observations per building per week, depending on the school"
+    },
+    {
+        question: "What instructional support structure is required for science and social studies starting in SY26, according to the roadmap?",
+        choices: ["Unit and Lesson Internalization Protocols for Science and Social Studies", "Data Meetings", "Coaching Cycles", "Curriculum Reviews"],
+        answer: "Unit and Lesson Internalization Protocols for Science and Social Studies"
+    },
+    {
+        question: "What key goal related to growth percentile is expected for 50% of tested students in Reading and Math by 2025?",
+        choices: ["50% of students should meet or exceed the 42nd growth percentile", "50% should exceed the 90th percentile", "All students should meet grade-level expectations", "75% should reach the 50th percentile"],
+        answer: "50% of students should meet or exceed the 42nd growth percentile"
+    },
+    {
+        question: "What type of mathematicians are students expected to become according to the Vision of Excellent Math Instruction?",
+        choices: ["Problem-finders and problem-solvers", "Memorizers of formulas", "Test-takers", "Data analysts"],
+        answer: "Problem-finders and problem-solvers"
+    },
+    {
+        question: "How frequently are school leaders required to revisit and analyze their Theory of Action using data protocols?",
+        choices: ["Quarterly, during Principal Professional Development (PD)", "Annually", "Monthly", "Weekly"],
+        answer: "Quarterly, during Principal Professional Development (PD)"
+    },
+    {
+        question: "Where can educators find the specific dates for assessments throughout the school year?",
+        choices: ["The Assessment Calendar", "Google Calendar", "Teacher Planner", "Data Hub"],
+        answer: "The Assessment Calendar"
+    },
+    {
+        question: "How often are teachers expected to adjust instruction following data cycles for assessments?",
+        choices: ["After each End of Unit Assessment", "Annually", "Quarterly", "Before state exams"],
+        answer: "After each End of Unit Assessment"
+    },
+    {
+        question: "What is the expected percentage of classrooms demonstrating strong instructional practices by May 31, 2025?",
+        choices: ["75%", "50%", "100%", "85%"],
+        answer: "75%"
+    },
+    {
+        question: "What type of protocols are teachers required to engage in on a weekly basis for Math and Literacy?",
+        choices: ["Topic/Lesson Internalization Protocols", "Teacher Data Protocol", "School Leadership Guidance", "Assessment Protocols"],
+        answer: "Topic/Lesson Internalization Protocols"
+    }
